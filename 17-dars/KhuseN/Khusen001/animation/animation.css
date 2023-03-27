@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+@keyframes Khusen {
+    0%{
+    transform: rotatez(360deg) scale(1);
+    }
+    50%{
+    transform: rotatez(0) scale(0.8);
+    }
+    100%{
+     transform: rotatez(-360deg) scale(1);
+    }
+ }
+
+ @keyframes Khusenn {
+    0%{
+        
+    }
+    50%{
+
+    }
+    100%{
+        
+    }
+}

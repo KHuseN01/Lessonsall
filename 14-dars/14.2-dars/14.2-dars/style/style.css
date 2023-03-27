@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,600;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/backgroud_black.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .bg_dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.allPageWidth{ 
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container .bg_dark .allPageWidth .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container .bg_dark .allPageWidth .navbar .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .bg_dark .allPageWidth .navbar .contact p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.container .bg_dark .allPageWidth .navbar .contact p:nth-child(2){
+    font-size: 16px;
+    line-height: 160%;
+    color: #DA4533;
+}
+
+.container .bg_dark .allPageWidth .navbar .contact p:nth-child(1){
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.container .bg_dark .allPageWidth .navbar .navs ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .bg_dark .allPageWidth .navbar .navs ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.container .bg_dark .allPageWidth .navbar .navs ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container .bg_dark .allPageWidth .navbar .navs ul li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    bottom: -3px;
+    height: 5px;
+    width: 0;
+   transition: all 0.5s linear;
+   border-radius: 10px;
+}
+
+.container .bg_dark .allPageWidth .navbar .navs ul li:hover a::after {
+   width: 100%;
+}
+
+/* navbar end */
+
+/* section_one start */
+
+.container .bg_dark .section_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .bg_dark .section_one .allPageWidth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.container .bg_dark .section_one .allPageWidth .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 50%;
+
+}
+
+.container .bg_dark .section_one .allPageWidth .left p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #8A8A8A;
+}
+
+.container .bg_dark .section_one .allPageWidth .left h1{
+    font-family: 'STIX Two Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.container .bg_dark .section_one .allPageWidth .left .p1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #8A8A8A;
+}
+
+.container .bg_dark .section_one .allPageWidth .left .bots{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+.container .bg_dark .section_one .allPageWidth .left .bots .KHuseN_1{
+    width: 200px;
+    height: 50px;
+    border-radius: 48%;
+    border: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DA4533;    
+}
+
+.container .bg_dark .section_one .allPageWidth .left .bots .KHuseN_2{
+   width: 120px;
+   height: 30px;
+   border-radius: 48%;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 160%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #DA4533;
+   background-color: #1B1B1B;
+   border: 1px solid #DA4533;
+}
+
+.container .bg_dark .section_one .allPageWidth .right{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* section_one end */

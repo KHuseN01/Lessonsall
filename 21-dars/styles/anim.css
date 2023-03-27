@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #01287cc2;
+}
+
+.container .content{
+    width: 250px;
+    height: 250px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+}
+
+.container .content .cube {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-25deg) rotateY(-135deg);
+    animation: anim1  8s linear infinite;
+}
+
+.container .content .cube .side {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #453d6780;
+    border: 1px solid #fff;
+    transition: all 1s linear ;
+ }
+
+ .container .content .cube .side{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.container .content .cube .front{
+    transform: translate3d( 0, 0, 150px);
+    background-image: url(https://avatars.mds.yandex.net/i?id=b1d79242198476d53fb7bd043e4e834448329d5a-8486953-images-thumbs&n=13);
+}
+.container .content .cube .back{
+    transform: translate3d(  0, 0, -150px ) rotateY(0deg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=bfa5c3250f1f0932827430c6b9053892-5469231-images-thumbs&n=13);
+}
+.container .content .cube .right{
+    transform: translate3d( 150px, 0, 0 ) rotateY(90deg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=7386ff5fbdb5c95f0e3062a8f0bc892f968e4df0-4246574-images-thumbs&n=13);
+}
+.container .content .cube .left{
+    transform: translate3d( -150px, 0, 0 ) rotateY(90deg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=bfa5c3250f1f0932827430c6b9053892-5469231-images-thumbs&n=13);
+}
+.container .content .cube .top{
+    transform: translate3d(  0, -150px, 0 ) rotateX(90deg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=ce8b76315daad21ad9a2056e37baa7295b924d53-8497167-images-thumbs&n=13);
+}
+.container .content .cube .bottom{
+    transform: translate3d(  0, 150px, 0 ) rotateX(90deg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=96e435334fcf88f1e3be178991766295c609164f-6361230-images-thumbs&n=13);
+}
+

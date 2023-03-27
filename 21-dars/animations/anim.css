@@ -1,0 +1,33 @@
+@keyframes anim1{
+    0%{
+        transform:rotateY(360deg) rotateZ(90deg); 
+    }
+    100%{
+        transform:rotateX(360deg) rotateY(180deg);
+    }
+}
+
+.container .content .cube:hover .front{
+    transform: translate3d( 0, 0, 300px) rotate(0deg);
+}
+
+.container .content .cube:hover .back{
+    transform: translate3d(  0, 0, -300px ) rotateY(0deg);
+}
+
+.container .content .cube:hover .right{
+    transform: translate3d( 300px, 0, 0 ) rotateY(0deg);
+}
+
+.container .content .cube:hover .left{
+    transform: translate3d( -300px, 0, 0 ) rotateY(0deg);
+}
+
+
+.container .content .cube:active .top{
+    transform: translate3d(  0, -300px, 0 ) rotateX(0deg);
+}
+
+.container .content .cube:hover .bottom{
+    transform: translate3d(  0, 300px, 0 ) rotateX(0deg);
+}

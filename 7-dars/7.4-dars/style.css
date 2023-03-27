@@ -1,0 +1,96 @@
+.none{
+    width: 300px;
+    height: 50px;
+    border: 10px none red ;
+}
+.none_1  {
+    color: red;
+    margin-left: 120px;
+    padding-top: 15px;
+    padding-left: 7px;
+}
+
+.sayt {
+    width: 300px;
+    height: 50px;
+    /* background-color: aqua; */
+    border: 10px  rgb(0, 0, 0);
+    border-style: dotted;
+}
+body{
+background-color: rgb(180, 177, 177);
+}
+.sayt .text {
+    color: rgb(255, 0, 0);
+    margin-left: 120px;
+}
+.style {
+    width: 300px;
+    height: 50px;
+    border: 10px dashed;
+
+}
+.Dashed {
+    color: red;
+    margin-left: 120px;
+}
+.solid {
+    width: 300px;
+    height: 50px;
+    border: 10px solid black;
+}
+.solid_1{
+    color: red;
+    margin-left: 120px;
+}
+.double {
+    width: 300px;
+    height: 50px;
+    border: 10px double black;
+    margin-top: 15px;
+}
+.double_1 {
+    color: red; 
+    margin-left: 120px;
+}
+.groove {
+    width: 300px;
+    height: 50px;
+    border: 10px groove rgb(211, 208, 208);
+    margin-left: 350px;
+    margin-top: -410px;
+}
+.groove-1 {
+    color: red;
+    padding-left: 125px;
+}
+.ridge{
+    width: 300px;
+    height: 50px;
+    border: 10px ridge rgb(211, 208, 208);
+    margin-left: 350px;
+    margin-top: -10px;
+}
+.ridge_1 {
+    color: red; 
+    padding-left: 125px;
+}
+.inset {
+    width: 300px;
+    height: 50px;
+    border: 10px inset rgb(211, 208, 208);
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.inset_1 {
+    color: red;
+    padding-left: 125px;
+}
+.outset {
+    width: 300px;
+    height: 50px;
+    border: 10px outset rgb(211, 208, 208);
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.outset_1

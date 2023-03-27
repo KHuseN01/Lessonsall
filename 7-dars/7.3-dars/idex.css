@@ -1,0 +1,10 @@
+.border {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-top: 10px solid rgb(60, 255, 0);
+   border-right: 10px solid rgb(255, 217, 0);
+   border-bottom: 10px solid aqua;
+   border-left: 10px solid red;
+   margin: 90px;
+}

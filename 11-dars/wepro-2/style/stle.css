@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .allPageWidth {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.container .allPageWidth .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background-color: white;
+}
+
+.container .allPageWidth .navbar .navs ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container .allPageWidth .navbar .navs ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    font-weight: 600;
+}
+
+.container .allPageWidth .navbar .masagers {
+    display: flex;
+    gap: 20px;
+}
+
+.container .allPageWidth .navbar .masagers i {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*Section_one start */
+.container .allPageWidth .section_one {
+    display: flex;
+    justify-content: space-between;
+    background: #F0EFEB;
+}
+
+.container .allPageWidth .section_one .left,
+.container .allPageWidth .section_one .right {
+    width: 50%;
+}
+
+.container .allPageWidth .section_one .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container .allPageWidth .section_one .left h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.container .allPageWidth .section_one .left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.container .allPageWidth .section_one .left button {
+    width: 160px;
+    height: 50px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+}
+
+.container .allPageWidth .section_one .right img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .div1 {
+    background-color: #F0EFEB;
+}
+
+/* Section_one end */
+
+/* SECTION_two start */
+
+.container .div2 {
+    background: #f8f8f8;
+}
+
+.container .allPageWidth .text_one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.container .allPageWidth .text_one h1 {
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.container .allPageWidth .text_one p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.container .allPageWidth .images {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.container .allPageWidth .text_two{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container .allPageWidth .text_two .textes_one,
+.container .allPageWidth .text_two .textes_two,
+.container .allPageWidth .text_two .textes_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 0 ;
+}
+.container .allPageWidth .text_two .textes_one h3,
+.container .allPageWidth .text_two .textes_two h3,
+.container .allPageWidth .text_two .textes_three h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding:20px 0 ;
+}
+.container .allPageWidth .text_two .textes_one p,
+.container .allPageWidth .text_two .textes_two p,
+.container .allPageWidth .text_two .textes_three p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding:10px 0 ;
+}
+.container .allPageWidth .text_two .textes_one h4,
+.container .allPageWidth .text_two .textes_two h4,
+.container .allPageWidth .text_two .textes_three h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+} 
+/* SECTION_two end */
+
+/* SECTION_three start */
+.container .div3{
+    background: rgba(204, 204, 204, 0.3);
+    border-radius: 0px;
+    height: 525px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .div3 .allPageWidth .section_three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .div3 .allPageWidth .section_three .left img{
+    display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.container .div3 .allPageWidth .section_three .left{
+    height: 525px;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container .div3 .allPageWidth .section_three .right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.container .div3 .allPageWidth .section_three .right h3{
+    margin: 20px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.container .div3 .allPageWidth .section_three .right p{
+    margin: 40px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+}
+.container .div3 .allPageWidth .section_three .right h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration-line: underline;
+    color: #000000;
+}
+/* SECTION_three end */
+
+/* SECION_four start */
+.container .div4{
+    background: rgba(204, 204, 204, 0.6);
+    border-radius: 0px;
+    height: 525px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.container .allPageWidth .section_four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .allPageWidth .section_four .left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.container .allPageWidth .section_four .left h3{
+    margin: 20px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+}
+
+.container .allPageWidth .section_four .left p{
+    margin: 40px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+}
+.container .allPageWidth .section_four .left h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.container .allPageWidth .section_four .right{
+    width: 30%;
+}
+
+.container .div4 .allPageWidth .section_four .right img{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+/* SECION_five end */
+
+/* SECTION_SIX start */
+.container .div6{
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+.container .div6 .allPageWidth  .textes1 p{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.container .div6 .allPageWidth .textes2 .borders{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 100px solid red;
+}
+.container .div6 .allPageWidth .textes2 .borders .a1{
+    background-color: aqua;
+}
+.container .div6 .allPageWidth .textes2{
+    background-color: aqua;
+}
+/* SECTION_SIX end */
+

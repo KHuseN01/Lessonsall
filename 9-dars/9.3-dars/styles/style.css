@@ -1,0 +1,86 @@
+*{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;   
+}
+.navbar {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+nav .navs ul li {
+    font-size: 20px;
+    font-weight: 900;
+    list-style: none;
+    display: inline; 
+    align-items: center;
+    padding-left: 40px;
+}
+nav .navs ul li a {
+   text-decoration: none;
+   color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 500px;
+}
+.logo h1 {
+  font-size: 50px;
+  color: white;
+  transition: 2.6s;
+}
+nav .navs ul li a i {
+    font-size: 40px;
+    color: black;
+    transition: 2.0s;
+}
+nav .navs ul li a i:hover{
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.logo h1:hover{
+    color: black;
+    transform:translateX(50px);
+}
+nav .navs ul li a:hover{
+ color: red;
+ transition: 1.0s;
+}
+.logo1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.logo1{
+    color: black;
+    margin-top: 35%;
+}
+.logo1:hover{
+  color: white;
+  transition: 1.0s;
+}
+nav input {
+    width: 220px;
+    height: 30px;
+    border-radius: 80px;
+    padding-left:10px ;
+}
+.text input {
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left:5px ;
+    font-weight: 900;
+    font-size:16px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(230, 230, 255),rgb(0, 0, 0));
+    transition: 1.1s;
+}
+.text input:hover{
+    transform: scale(1.1);
+}

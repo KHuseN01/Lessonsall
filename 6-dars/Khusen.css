@@ -1,0 +1,36 @@
+.href_1{
+    background-color: rgb(208, 255, 0);
+    color: rgb(255, 0, 0);
+    line-height: 30px;
+    text-align: left;
+    width: 700px;
+    font-size: 25px;
+}
+body{
+    line-height: 20px;
+    width: 900px;
+}
+
+.Href_1 {
+   text-align: left;
+   font-size: 20px;
+   line-height: 10px;
+
+}
+.Href_2{
+color: rgb(37, 211, 255);
+font-family: ;
+}
+
+.Href_3{
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: red;
+}
+.Href_5{
+    text-decoration: underline;
+}
+.Href_6{
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: dimgrey;
+}
+
+.container .box{
+    animation-name: Khusen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    background-color: aliceblue;
+}
+
+@keyframes Khusen {
+    0%{
+    transform: rotateZ(0) translateX(0px);
+    }
+    25%{
+    transform: rotateZ(0) translateX(800px) translateY(300px);
+    }
+    30%{
+    transform: rotateZ(0) translateX(800px) translateY(300px);
+    }
+    50%{
+    transform: rotateZ(0) translateX(00px) translateY(300px);
+    }
+    75%{
+    
+    }
+    100%{
+    
+    }
+}
